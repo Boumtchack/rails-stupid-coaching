@@ -1,9 +1,8 @@
 class QuestionsController < ApplicationController
-
   def ask
-    raise
   end
 
   def answer
+    @question = params[:question]
   end
 end
